@@ -41,8 +41,8 @@ def post_order(root):
 
 def pre_order(root)
 if root:
-  pre_order(root.left)
-  print(root.data)
+  pre_order(root.data)
+  print(root.left)
   pre_order(root.right)
   return 
 
