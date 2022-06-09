@@ -20,5 +20,5 @@ def take_input_level_wise():
       right_child = Tree(right_child_data)
       curr_node.right = right_child
       q.put(right_child)
-    return root
+   return root
 
